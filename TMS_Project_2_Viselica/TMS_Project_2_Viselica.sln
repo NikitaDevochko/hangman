@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TMS_Project_2_Viselica", "TMS_Project_2_Viselica\TMS_Project_2_Viselica.csproj", "{B4360390-D587-45EB-874D-69F6ECBCAF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{B1E0CAD6-9438-409E-91E3-7A163AF991DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", "{B1E0CAD6-9438-409E-91E3-7A163AF991DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{5F473EC6-C250-43C8-B654-45A7A31CAE13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B1E0CAD6-9438-409E-91E3-7A163AF991DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E0CAD6-9438-409E-91E3-7A163AF991DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E0CAD6-9438-409E-91E3-7A163AF991DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F473EC6-C250-43C8-B654-45A7A31CAE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F473EC6-C250-43C8-B654-45A7A31CAE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F473EC6-C250-43C8-B654-45A7A31CAE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F473EC6-C250-43C8-B654-45A7A31CAE13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
