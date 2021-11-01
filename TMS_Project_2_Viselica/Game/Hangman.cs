@@ -35,6 +35,7 @@ namespace Game
 
         public bool CheckLetter(char letter)
         {
+            letter = char.ToLower(letter);
             bool isLetterExist = false;
             for (int i = 0; i < charWord.Length; i++)
             {

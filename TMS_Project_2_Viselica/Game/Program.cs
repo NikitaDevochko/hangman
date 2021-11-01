@@ -35,11 +35,21 @@ namespace Game
                     if (hangman.CheckLetter(inputString[0]))
                     {
                         Console.WriteLine("Есть такая буква!");
+                        if (!hangman.IsSolved)
+                        {
+                            Console.WriteLine("Вы победили!");
+                            continue;
+                        }
                     }
                     else
                     {
                         errors--;
                         Console.WriteLine($"Такой буквы нет! Осталось {errors} попыток");
+                        if (errors == 0)
+                        {
+                            Console.WriteLine("Вы проиграли!");
+                            continue;
+                        }
                     }
 
                     Console.WriteLine(hangman.ViewWord);
